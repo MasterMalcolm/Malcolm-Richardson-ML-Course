@@ -1,0 +1,11 @@
+Exploratory Data Analysis in this code presents a process.
+
+First we have Univariate Analysis, where only the top ten companies by percentage of devices are considered. 
+The rest are grouped into “other” and dropped. The remaining devices are grouped by type of device and operating system. 
+Then Mac and macOS are grouped into the same category. Android OS is dropped because few devices use it. The code looks 
+for how much flash storage is on each device and categorizes them by amount of flash storage. Since 94.5% of devices have 
+no flash storage, we drop this column. In the Bivariate Analysis, the code shows correlations between the company and the 
+device(s) they specialize in, OS most in use, CPU & GPU types mostly used. The next Bivariate Analysis shows that most 
+companies make mostly notebooks, most device types use Windows OS, most device types use the Intel CPU, and gaming/workstation 
+devices use the Nvidia GPU. Finally multivariate analysis is best shown in a heatmap and this particular code drops correlations 
+over 0.8.
